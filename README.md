@@ -1,62 +1,85 @@
-Trivia Game
+ To-Do Manager using Python
 
 Overview
 
-This is a simple trivia game written in Python that asks the user 5 random questions from a predefined set. The user provides answers, and at the end of the game, their score is displayed.
+The To-Do Manager is a simple yet effective task management application built using Python. This project helps users keep track of their daily tasks, allowing them to add, update, delete, and mark tasks as completed.
 
 Features
 
-Randomly selects 5 questions from a predefined list.
+Add new tasks with due dates and priorities
 
-Compares user responses with correct answers.
+View all pending tasks
 
-Displays the final score at the end of the game.
+Mark tasks as completed
 
-Prerequisites
+Delete tasks
 
-Python 3.x
+Save and load tasks for persistence
 
-How to Run
+Technologies Used
 
-Clone this repository:
+Python
 
-git clone https://github.com/yourusername/trivia-game.git
+Tkinter (for GUI-based application)
 
-Navigate to the project directory:
+SQLite (for data storage)
 
-cd trivia-game
+JSON (for lightweight data storage alternative)
 
-Run the Python script:
+Installation
 
-python trivia_game.py
+Clone the repository:
 
-Example Output
+git clone https://github.com/yourusername/To-Do-Manager.git
+cd To-Do-Manager
 
-Let's start with some basic aptitude questions
-You will be asked 5 questions. Try to answer them correctly!
-Let's start!
+Install required dependencies:
 
-1. What is the capital of France?
-Your answer: Paris
-Correct!
+pip install -r requirements.txt
 
-2. What is 2 + 2?
-Your answer: 5
-Wrong! The correct answer is: 4
+Run the application:
 
-...
+python main.py
 
-Your final score is 3/5.
+Usage
 
-Contributing
+Open the application.
 
-Feel free to fork this repository and submit pull requests to improve the game by adding more questions, enhancing the UI, or implementing a GUI version.
+Add new tasks with descriptions and due dates.
+
+View pending tasks and mark them as completed when done.
+
+Delete tasks if no longer needed.
+
+Close the application and reopen it later to continue where you left off.
+
+File Structure
+
+To-Do-Manager/
+│── main.py        # Entry point of the application
+│── gui.py         # Handles the user interface using Tkinter
+│── database.py    # Manages task storage using SQLite
+│── tasks.json     # Alternative JSON storage for tasks
+│── README.md      # Project documentation
+│── requirements.txt # List of dependencies
+
+Future Enhancements
+
+Implement task categories and labels
+
+Add notifications and reminders
+
+Sync tasks with cloud storage
 
 License
 
-This project is open-source and available under the MIT License.
+This project is licensed under the MIT License.
 
-Author
+Contributing
 
-Kavya Ganesan
+Pull requests are welcome! For major changes, please open an issue first to discuss your ideas.
 
+Contact
+
+For any queries, contact your.email@example.com or visit the project repository at:
+GitHub Repository
