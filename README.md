@@ -79,7 +79,4 @@ Contributing
 
 Pull requests are welcome! For major changes, please open an issue first to discuss your ideas.
 
-Contact
-
-For any queries, contact your.email@example.com or visit the project repository at:
-GitHub Repository
+ 
