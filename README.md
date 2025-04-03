@@ -20,10 +20,6 @@ Technologies Used
 
 Python
 
-Tkinter (for GUI-based application)
-
-SQLite (for data storage)
-
 JSON (for lightweight data storage alternative)
 
 Installation
@@ -53,15 +49,6 @@ Delete tasks if no longer needed.
 
 Close the application and reopen it later to continue where you left off.
 
-File Structure
-
-To-Do-Manager/
-│── main.py        # Entry point of the application
-│── gui.py         # Handles the user interface using Tkinter
-│── database.py    # Manages task storage using SQLite
-│── tasks.json     # Alternative JSON storage for tasks
-│── README.md      # Project documentation
-│── requirements.txt # List of dependencies
 
 Future Enhancements
 
